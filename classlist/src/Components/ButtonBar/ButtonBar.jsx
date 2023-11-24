@@ -16,7 +16,7 @@ export default function ButtonBar(){
   return (
     <>
     <div className="button-bar">
-        {classList.map((button, index) => (<ClassButton onClick={() => selectClass(button)}  className={selectedClass ? "class-button"  : "class-button"}>{button.title}</ClassButton>))}
+        {classList.map((button, index) => (<ClassButton onClick={() => selectClass(button)} className={selectedClass ? "class-button" : "class-button"}   >{button.title}</ClassButton>))}
     </div>
 
     <div className='class-card-section'>

@@ -14,9 +14,8 @@ export const classList = [
   {title: "Evoker", description: "Dracthyr Evokers were created to wield the magic of all five dragonflights, and seek to forge their own path in Azeroth.", role:"Healer - Dps"}
 ]
 
-export const userList = [{name: 'Güven', age: 24, job:'FrontEnd Dev.'}, 
-{name: 'Onur', age: 24, job:'IT'},
-{name: 'Leila', age: 21, job:'Student'},
-{name: 'Yağız', age: 23, job:'Software Dev.'},
-{name: 'Fevzi', age: 21, job:'Designer'},
-]
+export const roles = {Tank: ["Warrior ", "Paladin ", "Monk ", "Druid ", "Demon Hunter ", "Death Knight "],
+Dps: ["Warrior ", "Paladin ", "Hunter ", "Rogue ", "Priest ", "Shaman ", "Mage ", "Warlock", "Monk ", "Druid ", "Demon Hunter ", "Death Knight ", "Evpler "],
+Healer: ["Paladin ", "Priest ", "Shaman ", "Monk ", "Druid ", "Evoker "]
+
+}
