@@ -1,4 +1,6 @@
 import './App.css';
+import Header from './Components/Header/Header';
+import ButtonBar from './Components/ButtonBar/ButtonBar';
 
 
 
@@ -7,7 +9,10 @@ function App() {
   
 
   return (
-    <p>Selam</p>  
+    <section class="main-section">
+      <Header/>
+      <ButtonBar/>
+    </section>
   );
 }
 
