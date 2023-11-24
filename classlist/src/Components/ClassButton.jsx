@@ -1,7 +1,7 @@
 import './ClassButton.css'
 
-export default function ClassButton({children, onActive, isActive, cl}){
+export default function ClassButton({children, cl, ...props}){
   return(
-    <button  className={isActive ? 'active-' + cl : 'class-button'} onClick={onActive}>{children}</button>
+    <button {...props}>{children}</button>
   )
 }

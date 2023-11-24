@@ -86,7 +86,7 @@
   background-color: rgb(255, 124, 10);
 }
 
-.active-Dh {
+.active-DemonHunter {
   height: 50px;
   border-radius: 25px;
   border: none;
@@ -94,7 +94,7 @@
   background-color: rgb(163, 48, 201);
 }
 
-.active-Dk {
+.active-DeathKnight {
   height: 50px;
   border-radius: 25px;
   border: none;
@@ -111,9 +111,8 @@
 }
 
 
-
-
-
-
+.deneme {
+  background-color: red;
+}
 
 
