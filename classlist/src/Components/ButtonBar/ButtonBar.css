@@ -12,7 +12,114 @@
   border-radius: 50px;
   border: none;
   cursor: pointer;
-  background-color: red;
+  background-color: rgb(198, 155, 109);
+}
+
+.class-button-Hunter{
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(170, 211, 114);
+}
+
+.class-button-Rogue{
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(255, 244, 104);
+}
+
+.class-button-Priest{
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+
+.class-button-Shaman{
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(0, 112, 221);
+}
+
+.class-button-Mage{
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(63, 199, 235);
+}
+.class-button-Warlock{
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(135, 136, 238);
+}
+
+.class-button-Monk{
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(0, 255, 152);
+}
+
+.class-button-Druid{
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(255, 124, 10);
+}
+
+.class-button-Dh{
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(163, 48, 201);
+}
+
+.class-button-Dk{
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(196, 30, 58);
+}
+
+.class-button-Evoker{
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(51, 147, 127);
+}
+
+.class-button-Paladin{
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(244, 140, 186);
 }
 
 .button-bar{

@@ -8,15 +8,15 @@ export default function ButtonBar(){
 
   const [selectedClass, setSelectedClass] = useState();
 
-  function selectClass(selected){
-    setSelectedClass(selected)
-  }
+  //function selectClass(selected){
+  //  setSelectedClass(selected)
+  //}
 
 
   return (
     <>
     <div className="button-bar">
-        {classList.map((button, index) => (<ClassButton onClick={() => selectClass(button)} className={selectedClass ? "class-button" : "class-button"}   >{button.title}</ClassButton>))}
+        {classList.map((button, index) => (<ClassButton onClick={() => setSelectedClass(button)} className={selectedClass.title === button.title ? 'class-button-' + selectedClass.title : "class-button"}   >{button.title}</ClassButton>))}
     </div>
 
     <div className='class-card-section'>

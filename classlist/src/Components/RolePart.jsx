@@ -16,12 +16,16 @@ export default function ChooseRole(){
 
     <>
       <div className="role-buttons">
-      <button onClick={() => selectRole("Tank")}>Tank</button>
-      <button onClick={() => selectRole("Dps")}>Dps</button>
-      <button onClick={() => selectRole("Healer")}>Healer</button>
+      <button className={selectedRole === "Tank" ? 'active' : 'standard-buttons'} onClick={() => selectRole("Tank")}>Tank</button>
+      <button className={selectedRole === "Dps" ? 'active' : 'standard-buttons'} onClick={() => selectRole("Dps")}>Dps</button>
+      <button className={selectedRole === "Healer" ? 'active' : 'standard-buttons'} onClick={() => selectRole("Healer")}>Healer</button>
       </div>
 
-      {!selectedRole ? <p>Please Choose a Role</p> : 
+      {!selectedRole ?
+       (<div className="role-section">
+          <p>Please Choose a Role</p>
+       </div>)
+        : 
       
       (<div className="role-section">
         <h2>{selectedRole}</h2>
