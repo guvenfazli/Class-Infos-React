@@ -1,0 +1,68 @@
+.warrior-items{
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+}
+
+
+
+.paladin-items{
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+  		
+}
+
+
+
+
+
+
+.archer-items{
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+}
+
+
+
+
+.mage-items{
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+}
+
+
+
+.items button{
+  width: 80px;
+  margin-bottom: 10px;
+  height: 80px;
+  background-color: #E6D429;
+  border: 1px solid black;
+  color: black;
+  border-radius: 40px;
+  cursor: pointer;
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
+.inventory-items{
+  margin-bottom: 50px;
+}

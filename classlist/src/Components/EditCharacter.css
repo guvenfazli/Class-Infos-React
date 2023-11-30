@@ -1,0 +1,21 @@
+.summary input{
+  padding-left: 5px;
+  height: 35px;
+  border: none;
+  border-radius: 7px;
+  font-family: 'Hedvig Letters Serif', serif;
+  background-color: #E6D429;
+  border: 1px solid black
+}
+
+.summary select{
+  width: 200px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  padding-left: 5px;
+  font-family: 'Hedvig Letters Serif', serif;
+  background-color: #E6D429;
+  border: 1px solid black
+}
+

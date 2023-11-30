@@ -1,0 +1,87 @@
+.background-story{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.background-section{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.background-story{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.background-story button{
+  width: 70px;
+  margin-bottom: 10px;
+  height: 30px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
+.warrior-button {
+  width: 70px;
+  margin-bottom: 10px;
+  height: 30px;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: rgb(198, 155, 109);
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
+.paladin-button {
+  width: 70px;
+  margin-bottom: 10px;
+  height: 30px;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: rgb(244, 140, 186);
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
+.archer-button {
+  width: 70px;
+  margin-bottom: 10px;
+  height: 30px;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #AAD372;
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
+.mage-button {
+  width: 70px;
+  margin-bottom: 10px;
+  height: 30px;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #3FC7EB;
+  font-family: 'Hedvig Letters Serif', serif;
+}

@@ -1,0 +1,15 @@
+.summary{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.summary button{
+  width: 150px;
+  height: 35px;
+  border: none;
+  border-radius: 75px;
+  cursor: pointer;
+  font-family: 'Hedvig Letters Serif', serif;
+  background-color: #E6D429;
+  border: 1px solid black;
+}
